@@ -4,7 +4,11 @@
 }
 
 #logo {
+<<<<<<< HEAD
   width: 100px;
+=======
+  width: 200px;
+>>>>>>> 8fb5ee80fcb99d666b39e465205ab776ff4500ec
 }
 
 #nav-bar {
@@ -22,5 +26,74 @@ a {
 }
 
 h1 {
-    font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  
+}
+
+p{
+  color: white;
+}
+
+#txt {
+  background-color: black;
+  float: left;
+  text-align: center;
+  padding: 100px;
+  font-family: 'Montserrat', sans-serif;
+ 
+}
+
+.second {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+
+#video {
+  padding: 40px;
+  background-color: black;
+}
+
+#third-div {
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+}
+
+.form {
+  
+}
+
+
+/* Style all font awesome icons */
+.fa {
+  padding: 30px;
+  font-size: 30px;
+  width: 50px;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: black;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: black;
+  color: white;
 }
