@@ -1,99 +1,38 @@
+<!-- Navigation Bar
+  
 #header {
-  background-image: url('https://i.ibb.co/7rKRwKv/kisspng-electronic-entertainment-expo-2018-cyberpunk-2077-media-library-xbox-wire-5b62bbfeec6252-646.png');
-  height: 700px;
-}
-
-#logo {
-<<<<<<< HEAD
-  width: 100px;
-=======
+    background-image: url('https://i.ibb.co/7rKRwKv/kisspng-electronic-entertainment-expo-2018-cyberpunk-2077-media-library-xbox-wire-5b62bbfeec6252-646.png');
+    height: 700px;
+    width:100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+  }
+  
+#header-img {
   width: 200px;
->>>>>>> 8fb5ee80fcb99d666b39e465205ab776ff4500ec
-}
-
-#nav-bar {
-  float: right;
-  margin: 30px;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-  margin: 30px;
-  word-spacing: 40px;
-  font-family: 'Roboto Mono', monospace;
-  font-size: 20px;
-}
-
-h1 {
-  font-family: 'Roboto Mono', monospace;
-  color: white;
-  
-}
-
-p{
-  color: white;
-}
-
-#txt {
-  background-color: black;
-  float: left;
-  text-align: center;
-  padding: 100px;
-  font-family: 'Montserrat', sans-serif;
- 
-}
-
-.second {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-
-}
-
-#video {
-  padding: 40px;
-  background-color: black;
-}
-
-#third-div {
-  background-color: black;
-  width: 100%;
-  text-align: center;
   position: relative;
-  display: inline-block;
-}
-
-.form {
+  margin-top: 20;
   
 }
+  
+#nav-bar {
+    float: right;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    top: 0;
+  }
 
+  .nav-link {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+    float: right;
+    margin: auto;
+    padding: 50px;
+  }
 
-/* Style all font awesome icons */
-.fa {
-  padding: 30px;
-  font-size: 30px;
-  width: 50px;
-  margin: 5px;
-  text-align: center;
-  text-decoration: none;
-}
+  <!-- Second divider
 
-/* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.7;
-}
-
-/* Set a specific color for each brand */
-
-/* Facebook */
-.fa-facebook {
-  background: black;
-  color: white;
-}
-
-/* Twitter */
-.fa-twitter {
-  background: black;
-  color: white;
-}
+  
