@@ -1,38 +1,60 @@
-<!-- Navigation Bar
-  
-#header {
-    background-image: url('https://i.ibb.co/7rKRwKv/kisspng-electronic-entertainment-expo-2018-cyberpunk-2077-media-library-xbox-wire-5b62bbfeec6252-646.png');
-    height: 700px;
-    width:100%;
-    position: relative;
-    background-position: center;
-    background-size: cover;
-  }
-  
-#header-img {
-  width: 200px;
-  position: relative;
-  margin-top: 20;
-  
+header {
+  width: 100%;
+  background: url(https://i.ibb.co/7rKRwKv/kisspng-electronic-entertainment-expo-2018-cyberpunk-2077-media-library-xbox-wire-5b62bbfeec6252-646.png.com/photo-1515215234071-62cca5638e20?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6d57763bd524355adb387031bb24e78e&auto=format&fit=crop&w=1350&q=80);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
-  
+
+#header-img {
+  width: 100px;
+  position: absolute;
+  padding: 5px;
+}
+
 #nav-bar {
-    float: right;
-    position: fixed;
-    background-color: black;
-    width: 100%;
-    top: 0;
-  }
+  background-color: black;
+  width: 100%;
+  margin-top: 0;
+  position: fixed;
+}
 
-  .nav-link {
-    color: white;
-    font-family: 'Roboto Mono', monospace;
-    text-decoration: none;
-    float: right;
-    margin: auto;
-    padding: 50px;
-  }
+header ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  align-items: center;
+  padding: .8em;
+  margin: 0; 
+  font-family: 'Roboto Mono', monospace;
+}
 
-  <!-- Second divider
+.nav-link {
+  text-decoration: none;
+  color: white;
+  padding: 1em;
+}
 
-  
+#second{
+  background-color: black;
+  text-align: center;
+} 
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  margin-top: 0px;
+
+}
+
+p {
+  color: white;
+  text-align: center;
+  max-width: 700px;
+  margin-left: 280px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+
+}
